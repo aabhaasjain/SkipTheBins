@@ -1,0 +1,68 @@
+# Project - Skip The Bins
+
+- Project - Skip the bins : Recyclable waste management system
+  The project gives a common platform for the vendors who recycle waste and the users who wants to submit their waste to those vendors. Users will schedule a waste pickup from this website, track the pickup and will receive rewards based on the amount of waste given. Users can see history of their submissions. Vendors can schedule pickups and award rewards to users. Both users and vendors can see staticstics of the waste submissions.
+
+- _Date Created_: 29 MAR 2022
+- _Last Modification Date_: 30 MAR 2022
+- _Deployment URL_: <https://skip-the-bins-backend.herokuapp.com/>
+
+## Authors
+
+- [Aabhaas Jain](aabhaas.jain@dal.ca) - _(Developer)_
+
+## Getting Started
+
+To have a local copy of this project up and running on your local machine, refer the sections below.
+
+### Prerequisites
+
+First you need to install the following software / libraries / plug-ins
+
+- Node.js
+- npm
+
+See the following section for detailed step-by-step instructions on how to install this software / libraries / plug-ins
+
+### Installing
+
+Installation of Node.js and npm can be found at https://nodejs.org/en/
+
+Run the following commands to check successful installation:
+
+- node -v
+- npm -v
+
+To run this project on local follow the below steps:
+
+- Run 'git clone https://git.cs.dal.ca/aabhaas/group_14_backend_csci5709' for cloning files of this repository to local machine.
+- Run 'npm install' for installing dependencies.
+- Run 'npm run build' to build the app.
+- Run the app using 'npm start'.
+- Open browser and run http://localhost:8080/ to run the app in the browser.
+
+## Deployment
+
+This project is deployed on Heroku server. Follow below steps for deployment:
+
+1. Go to https://www.heroku.com/ and sign in with your account.
+2. Create a new app and give it a name.
+3. In your terminal, run 'heroku login'.
+4. After successful login, run 'heroku git:clone -a {APP_NAME}$ {APP_NAME}' where APP_NAME is the name provided in step 2.
+5. Run 'git add .' to add all the files.
+6. Run 'git commit -am MESSAGE' where MESSAGE is any string which can be used to identify the commit.
+7. Run 'git push heroku master' to push the code.
+8. Heroku will build the code after completion of push operation.
+9. Click on 'Open App' from the heroku website window to view the deployed app.
+
+## Built With
+
+1. [express](https://www.npmjs.com/package/express)
+2. [cors](https://www.npmjs.com/package/cors)
+3. [body-parser](https://www.npmjs.com/package/body-parser)
+4. [mongoose](https://www.npmjs.com/package/mongoose)
+5. [moment](https://www.npmjs.com/package/moment)
+
+## Acknowledgments
+
+- Nodejs Documentation - [node.js](https://nodejs.org/en/docs/)
